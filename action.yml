@@ -1,7 +1,7 @@
 name: 'Ticket check action'
 description: 'Check branch has a ticket id on it, and return the ticket number'
 outputs:
-  ticket_id:
+  ticket-id:
     description: 'ID of a ticket'
 runs:
   using: 'docker'
